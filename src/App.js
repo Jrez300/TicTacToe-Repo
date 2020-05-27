@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Board from '/Users/Jrez/Documents/tic-tac-toe/ticTacToe-Repo/src/components/board/board.js'
+import Board from '../src/components/board/board'
 function App() {
   return (
     <>
