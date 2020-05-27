@@ -1,8 +1,8 @@
 //board//
 import React, { useState } from 'react';
-import Square from '/Users/Jrez/Documents/tic-tac-toe/ticTacToe-Repo/src/components/square/square.js';
-import r2h from '/Users/Jrez/Documents/tic-tac-toe/ticTacToe-Repo/src/img/r2h.png'
-import fellowship from '/Users/Jrez/Documents/tic-tac-toe/ticTacToe-Repo/src/img/fellowships.png'
+import Square from '../square/square';
+import r2h from '../../img/r2h.png'
+import fellowship from '../../img/fellowships.png'
 
 const Board = () => {
 
