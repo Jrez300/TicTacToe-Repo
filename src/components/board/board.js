@@ -54,9 +54,9 @@ const Board = () => {
 
     const getStatus = () => {
         if(winner){
-            return "Congrates player" + winner
+            return "Congrates player" +" "+ winner
         } else {
-            return "Next player is player" + (playerXIsNext ? "X" : "O")
+            return "Next player is player" + " "+(playerXIsNext ? "X" : "O")
         }
     }
     return (
